@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+:root {
+  --primary-color: #09bc8a;
+  --secondary-color: #004346;
+  --accent-color: #172a3a;
+}
+body {
+  background-color: var(--primary-color);
+}
+
+.container-content{
+align-items: center;
+text-align: center;
+margin-top: 10rem ;
+}
+nav {
+  text-align: center;
+  text-transform: capitalize;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 400;
+  letter-spacing: 5px;
+  color: var(--secondary-color);
+}
+
+input::placeholder {
+  color: var(--accent-color);
+  text-transform: capitalize;
+}
+input {
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  width: 50%;
+  outline: none;
+
+}
+button{
+    padding: 7px;
+    border: none;
+    border-radius: 16px;
+    transition: 500ms;
+    margin-left: 10px;
+    outline: none;
+    
+}
+button:hover{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    cursor: pointer;
+    box-shadow: 0px 0px 6px 0.1px var(--primary-color);
+}
+
+.input-bar {
+  width: 600px;
+  border: 2px solid white;
+  margin: 10px auto;
+  padding: 20px;
+  background-color: var(--secondary-color);
+  border: none;
+  border-radius: 10px;
+  padding-bottom:6rem;
+  text-align:center;
+  padding-top: 3rem;
+
+}
+
+.result{
+  border: 1px solis white;
+  color: var(--primary-color);
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  padding: 20px;
+  text-align: center;
+}
